@@ -53,6 +53,9 @@ export default Component.extend({
    */
   click(e) {
     e.preventDefault();
+    if(this.get('shouldOpen') && !this.get('shouldOpen')()) {
+      return;
+    }
     this.openCheckout();
   },
 
