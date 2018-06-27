@@ -1,5 +1,5 @@
 {
-  "name": "ember-cli-stripe",
+  "name": "@boundless-inc/ember-cli-stripe",
   "version": "1.0.4",
   "description": "Stripe checkout for Ember",
   "keywords": [
@@ -12,12 +12,11 @@
   "license": "MIT",
   "author": "Bill Curtis <wcurtis@sweettoothhq.com>",
   "directories": {
-    "doc": "doc",
     "test": "tests"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sweettooth/ember-cli-stripe"
+    "url": "git+https://github.com/boundless-inc/ember-cli-stripe.git"
   },
   "scripts": {
     "build": "ember build",
@@ -55,5 +54,10 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/boundless-inc/ember-cli-stripe/issues"
+  },
+  "homepage": "https://github.com/boundless-inc/ember-cli-stripe#readme",
+  "main": "index.js"
 }
